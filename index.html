@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>hehe</title>
+    <meta charset="utf-8"> 
+    <meta name="Mieu ta nhap" content = "Nhap">
+    <meta name = "keywords" content = "Ghi bai">
+    <meta name ="author" content = "Khiem">
+    <meta name="viewport" content ="width=device-width, initial-scale = 1.0">
+    <style>
+         body {
+            background-color: pink;  /* Đặt màu nền của trang thành hồng */
+            background-position: center;
+        }
+       
+    </style>
+</head>
+<body >
+
+ấn vào chỗ này ý -->
+<button onclick="changeText()" style="border-radius: 5px; background-color: lightgoldenrodyellow;">
+click
+</button>
+<h1 id = "h1id">Chị thử ấn vào xem</h1>
+   <script>
+    changeText = () => {
+        document.getElementById("h1id").innerHTML = "Chúc chị 1 ngày vuive nhé !";
+        const img = document.createElement("img");
+            img.src = "abddf9af9465cfb070564485d8720e3f.jpg"; 
+            img.alt = "Wii"; 
+            img.style.width = "300px"; 
+            img.style.borderRadius = "10px";
+            document.body.appendChild(img);
+    }
+   </script>
+</body>
+</html>
